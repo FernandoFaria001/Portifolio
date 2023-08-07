@@ -147,7 +147,7 @@ width: 90%;
 
 .info__titulo{
     font-family: var(--fonte--principal);
-    font-size: 64px;
+    font-size: 40px;
 }
 
 .info__titulo__strong{
@@ -156,7 +156,7 @@ width: 90%;
 
 .info__texto{
     font-family: var(--fonte--principal);
-    font-size: 32px;
+    font-size: 24px;
 }
 
 /* **PAGINA CURRICULO INNFORMAÇÕES** */
@@ -164,7 +164,7 @@ width: 90%;
 
 /* **FORMAÇÕES** */
 .form{
-   margin: 8em 4em;
+   margin: 5em 4em;
 }
 
 .form__topo{
@@ -176,7 +176,7 @@ width: 90%;
 
 .form__titulo{
     font-family: var(--fonte--principal);
-    font-size: 64px;
+    font-size: 40px;
 }
 
 .form__center{
@@ -196,7 +196,7 @@ width: 90%;
 .form__info{
     display: flex;
     gap: 10em;
-    padding: 5em 5em;
+    padding: 2em 5em;
     justify-content: space-between;
 }
 
@@ -211,6 +211,73 @@ width: 90%;
 .form__info__strong{
     color: var(--cor--detalhe);
 }
+
+/* **CURSOS** */
+
+.curso__topo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5em;
+}
+
+.imagem__curso{
+    width: 70px;
+}
+
+.curso__titulo{
+    font-size: 40px;
+}
+
+.curso__titulo__strong{
+    color: var(--cor--detalhe);
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    align-items: center;
+    gap: 2em;
+}
+
+.topicos__curso{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.topicos__link{
+    padding: 1em;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid var(--cor--detalhe);
+}
+
+.topicos__link:hover{
+    background-color: var(--cor--detalhe);
+    color: #000000;
+}
+
+
+/* **LINGUAGENS** */
+
+
+.lenguage__topo{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+   margin-left: 38em;
+}
+
+.lenguage__topo__imagem{
+    padding: 2em;
+    border: 2px solid var(--cor--detalhe);
+}
+
+
 
 
 
