@@ -264,18 +264,33 @@ width: 90%;
 
 /* **LINGUAGENS** */
 
-
-.lenguage__topo{
+.lenguage__div__imagem{
     display: flex;
-    gap: 2em;
-    flex-wrap: wrap;
-   margin-left: 38em;
+}
+/* 
+.lenguage__topo__imagem{
+    width: 10%;
+    padding: 1em;
+    text-align: center;
+} */
+
+.leguage__imagem{
+    width: 100px;
+    height: 100px;
+   padding: 2em;
+   border: 2px solid var(--cor--detalhe);
 }
 
-.lenguage__topo__imagem{
-    padding: 2em;
-    border: 2px solid var(--cor--detalhe);
+.leguage__imagem:hover{
+    background: #22D4FD;
 }
+
+.imagem__leguage{
+    background-image: url(../images/java\ 1.svg);
+}
+
+
+
 
 
 
