@@ -182,7 +182,7 @@ width: 90%;
 .form__center{
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 3em;
     
 }
 
@@ -205,13 +205,31 @@ width: 90%;
 }
 
 .form__info__texto{
-    font-size: 20px;
+    font-size: 32px;
 }
 
 .form__info__strong{
     color: var(--cor--detalhe);
 }
+/* **FORMAÇÕES** */
 
+/* **CURSOS** */
+
+.curso__topo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10em;
+    gap: 1em    ;
+}
+
+.curso__topo__titulo{
+    font-size: 64px;
+}
+
+.curso__topo__strong{
+    color: var(--cor--detalhe);
+}
 
 
 
