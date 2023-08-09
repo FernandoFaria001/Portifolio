@@ -4,6 +4,14 @@
     --cor-principal:#000000;
     --fonte--principal:  'Krona One', sans-serif;
     --cor--detalhe: #22D4FD;
+    --html:#FF3D00;
+    --css:#00D1FF;
+    --python:#00FFF0;
+    --java:#FF0000;
+    --java--script:#EBFF00;
+    --sql:#076AFF;
+    --angular:#FF0000;
+    --spring:#05FF00;
 }
 
 body{
@@ -147,7 +155,7 @@ width: 90%;
 
 .info__titulo{
     font-family: var(--fonte--principal);
-    font-size: 64px;
+    font-size: 40px;
 }
 
 .info__titulo__strong{
@@ -156,7 +164,7 @@ width: 90%;
 
 .info__texto{
     font-family: var(--fonte--principal);
-    font-size: 32px;
+    font-size: 24px;
 }
 
 /* **PAGINA CURRICULO INNFORMAÇÕES** */
@@ -164,7 +172,7 @@ width: 90%;
 
 /* **FORMAÇÕES** */
 .form{
-   margin: 8em 4em;
+   margin: 5em 4em;
 }
 
 .form__topo{
@@ -176,7 +184,7 @@ width: 90%;
 
 .form__titulo{
     font-family: var(--fonte--principal);
-    font-size: 64px;
+    font-size: 40px;
 }
 
 .form__center{
@@ -196,16 +204,16 @@ width: 90%;
 .form__info{
     display: flex;
     gap: 10em;
-    padding: 5em 5em;
+    padding: 2em 5em;
     justify-content: space-between;
 }
 
 .form__info__titulo{
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .form__info__texto{
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .form__info__strong{
@@ -219,17 +227,202 @@ width: 90%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
     padding-right: 10em;
     gap: 1em    ;
 }
 
 .curso__topo__titulo{
-    font-size: 64px;
+    font-size: 40px;
 }
 
 .curso__topo__strong{
     color: var(--cor--detalhe);
 }
+
+ 
+
+.imagem__curso{
+    width: 70px;
+}
+
+.curso__titulo{
+    font-size: 40px;
+}
+
+.curso__titulo__strong{
+    color: var(--cor--detalhe);
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    align-items: center;
+    gap: 2em;
+}
+
+.topicos__curso{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.topicos__link{
+    padding: 1em;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid var(--cor--detalhe);
+}
+
+.topicos__link:hover{
+    background-color: var(--cor--detalhe);
+    color: #000000;
+}
+
+
+/* **LINGUAGENS** */
+
+.lenguage{
+    display: flex;
+    gap: 1em;
+    align-items: center ;
+    justify-content: space-around;
+    padding: 5em 8em;
+
+   
+}
+
+.leguage__div__imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    
+}
+
+.leguage__div__3{
+    display: flex;
+    gap: 3em;
+}
+
+.leguage__div__4{
+    display: flex;
+    gap: 3em;
+}
+
+
+.leguage__imagem{
+    width: 100px;
+    height: 100px;
+   padding: 2em;
+   border: 2px solid var(--cor--detalhe);
+}
+
+.leguage__imagem:hover{
+    background: #22D4FD;
+}
+
+.leguage__titulo{
+    font-size: 40px;
+}
+
+.html{
+    border: 2px solid var(--html);
+}
+
+.html:hover{
+    background-color: var(--java);
+}
+
+.css{
+    border: 2px solid var(--css);
+}
+
+.css:hover{
+ background-color: var(--css);
+}
+
+.python{
+    border: 2px solid var(--python);
+}
+
+.python:hover{
+ background-color: var(--python);
+}
+
+.java{
+    border: 2px solid var(--java);
+}
+
+.java:hover{
+ background-color: var(--html);
+}
+.java__script{
+    border: 2px solid var(--java--script);
+}
+
+.java__script:hover{
+ background-color: var(--java--script);
+}
+
+.sql{
+    border: 2px solid var(--sql);
+}
+
+.sql:hover{
+    background-color: var(--sql);
+}
+
+.lenguage__frame{
+    display: flex;
+    gap: 1em;
+    align-items: center ;
+    justify-content: space-around;
+    padding: 3em 15em 5em 8em;
+}
+
+
+.leguage__div__imagem__frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.leguage__titulo__frame{
+    text-align: center;
+}
+
+.leguage__div__3__frame{
+    display: flex;
+    gap: 3em;
+}
+
+.angular{
+    border: 2px solid var(--angular);
+}
+
+.angular:hover{
+    background-color:var(--angular);
+}
+
+.spring{
+    border: 2px solid var(--spring);
+}
+
+.spring:hover{
+    background-color:var(--spring);
+}
+
+
+
+
+
+
+
 
 
 
