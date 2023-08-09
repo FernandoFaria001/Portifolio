@@ -40,7 +40,7 @@ body{
 /* **MENU** */
 
 .destaque{
-    color: aqua;
+    color: var(--cor--detalhe);
 }
 
 .center{
@@ -53,6 +53,11 @@ body{
 .imagem{display: flex;
 align-self: flex-start;
 width: 90%;
+}
+
+.insta{
+    width: 32px;
+    height: 32px;
 }
 
  .minha__imagem{
@@ -270,16 +275,20 @@ width: 90%;
 
 .topicos__link{
     padding: 1em;
+    width: 150px;
     background-color: transparent;
     color: white;
     border-radius: 10px;
     text-decoration: none;
     border: 1px solid var(--cor--detalhe);
+    background-image: url(../images/correto.svg);
+    background-repeat: no-repeat;
+    background-position: 140px;
 }
 
 .topicos__link:hover{
-    background-color: var(--cor--detalhe);
-    color: #000000;
+    background-color: rgb(78, 78, 78);
+    color: #ffffff;
 }
 
 
